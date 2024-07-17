@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang= "en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+  <title>Email Verification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="email-verify">
+    <h2 class="email">Email Verification</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <button type="submit">Verify</button>
+    </form>
+    <div id="results">
+      <h2>Email Verification Results</h2>
+      <p>Email: <span id="email"></span></p>
+      <p>Valid: <span id="isValid"></span></p>
+      <p>Active: <span id="isActive"></span></p>
+      <p>Disposable: <span id="isDisposable"></span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #results {
+    display: none;
+  }
+  
+  #results.show {
+    display: block;
+  }
+  .email-verify{
+    display: block;
+    width: 90%;
+    height: 100%;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    border: 1px solid black;
+  }
+  .email{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
